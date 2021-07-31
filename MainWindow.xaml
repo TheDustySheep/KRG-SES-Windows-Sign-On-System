@@ -1,0 +1,62 @@
+﻿<Window x:Class="KRG_SES_Windows_Sign_On_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KRG_SES_Windows_Sign_On_System"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="#D3E0EA">
+    <ContentControl>
+        <Grid>
+            <Label Content="Sign On System" FontSize="40" Margin="67,41,447,317"/>
+            <Image Source="https://d2kkk21akmg8gz.cloudfront.net/images/icons/ses-logo.png" Margin="470,30,24,326"/>
+            <Grid
+                Background="#FF1687A7" Margin="400,130,22,28">
+                <StackPanel
+                    Background="#FFF6F5F5"
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    Margin="10"
+                    Orientation="Horizontal">
+                    <ListBox>
+                        <Label Content="User a signed in on 24/03/21"/>
+                        <Label Content="User b signed in on 24/03/21"/>
+                        <Label Content="User c signed in on 24/03/21"/>
+                        <Label Content="User d signed in on 24/03/21"/>
+                        <Label Content="User e signed in on 24/03/21"/>
+                        <Label Content="User f signed in on 24/03/21"/>
+                        <Label Content="User g signed in on 24/03/21"/>
+                        <Label Content="User h signed in on 24/03/21"/>
+                    </ListBox>
+                    <ListBox>
+                        <Label Content="Time spent total 6969"/>
+                        <Label Content="Time spent jobs 100"/>
+                        <Label Content="Time spent training 234"/>
+                        <Label Content="Time spent admin 3424"/>
+                        <Label Content="Time spent OOA 3244"/>
+                        <Label Content="Time spent Social 0"/>
+                        <Label Content="Time spent Maintainence 1000"/>
+                        <Label Content="Time spent Other 10"/>
+                    </ListBox>
+                </StackPanel>
+            </Grid>
+            <Grid
+                Background="#FF1687A7"
+                Margin="67,167,456,200">
+                <TextBlock
+                    Text="40000000"
+                    InputScope="TelephoneNumber" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    TextAlignment="Center" 
+                    Foreground="#FF323232" 
+                    Background="#FFF6F5F5"
+                    FontSize="24" 
+                    FontWeight="Normal" 
+                    FontStyle="Normal"
+                    Margin="10"/>
+            </Grid>
+        </Grid>
+    </ContentControl>
+</Window>
